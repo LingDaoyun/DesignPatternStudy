@@ -1,8 +1,8 @@
-package org.yulang.factoryPattern.interfacePackage;
+package org.yulang.abstractFactoryPattern.interfacePackage;
 
 public interface Shape {
 	String CIRCLE="CIRCLE";
-	String SQUARE="SQUARE";
 	String RECTANGLE="RECTANGLE";
+	String SQUARE = "SQUARE";
 	void draw();
 }
